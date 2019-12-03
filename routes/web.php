@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// 静态页
+// Route::get('/', function () { return view('welcome'); });
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// 首页路由
+Route::get('/', 'PagesController@root')->name('root');
