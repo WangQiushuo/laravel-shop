@@ -80,7 +80,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
-                                    注册 <i class="glyphicon glyphicon-arrow-right"></i>
+                                    注册
                                 </button>
                             </div>
                         </div>

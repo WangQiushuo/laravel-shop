@@ -18,23 +18,8 @@
 </head>
 <body class="layui-layout-body">
     <div class="layui-layout layui-layout-admin">
-        @guest
-            @include('layouts._header')
-            <div class="layui-container">
-                <div class="layui-row">
-                    <div class="layui-col">
-                        <div class="layui-body site-demo">
-                            <div class="layui-content">
-                            @yield('content')
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            @include('layouts._footer')
-        @else
-            @include('layouts._header')
-            @include('layouts._sidebar')
+            @include('admin.layouts._header')
+            @include('admin.layouts._sidebar')
             <div class="layui-container">
                 <div class="layui-row">
                     <div class="layui-col">
@@ -47,8 +32,7 @@
                     </div>
                 </div>
             </div>
-            @include('layouts._footer')
-        @endguest
+            @include('admin.layouts._footer')
             
     </div>
     <!-- JS 脚本 -->
